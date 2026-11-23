@@ -1,9 +1,9 @@
-
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/(.*)",
-      "destination": "https://backup.twitai.app/$1"
+      "destination": "https://twitai-site.netlify.app/$1",
+      "permanent": true
     }
   ]
 }
